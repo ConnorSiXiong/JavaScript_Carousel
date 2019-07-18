@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="slides.css" rel="stylesheet" type="text/css"/>
+    <meta charset="UTF-8">
+    <title>slidesDemo-Alexander</title>
+
+</head>
+<body>
+    <div class="alexander-container">
+        <div class="alex-slides" data-imgs="3" data-active="0">
+            <img id="id-img-0" class="slide-image slide-active" src="slideimages/1.jpg" alt>
+            <img id="id-img-1" class="slide-image" src="slideimages/2.jpg" alt>
+            <img id="id-img-2" class="slide-image" src="slideimages/3.jpg" alt>
+
+            <button class="alex-slide-button vertical-center button-left" data-offset="-1">&lt;</button>
+            <button class="alex-slide-button vertical-center button-right" data-offset="1">&gt;</button>
+
+            <div class="alex-slide-indicators horizontal-center" data-index="0">
+                <div id="id-indicator-0" data-index="0" class="alex-slide-indi indi-active"></div>
+                <div id="id-indicator-1" data-index="1" class="alex-slide-indi"></div>
+                <div id="id-indicator-2" data-index="2" class="alex-slide-indi"></div>
+            </div>
+        </div>
+    </div>
+
+<script src="alexander_helper.js"></script>
+<script src="auto_slides.js"></script>
+</body>
+</html>
